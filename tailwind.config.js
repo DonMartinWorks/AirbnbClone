@@ -11,10 +11,24 @@ export default {
     ],
     theme: {
         extend: {
+            colors: {
+                'primary': {
+                    DEFAULT: '#222222'
+                },
+                'airbnb': {
+                    'gray-light': '#767676',
+                    'gray-dark': '#484848',
+                    'accent': '#FF5A5F',
+                    'green': '#00A699',
+                    'orange': '#FC642D'
+                },
+            },
+
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'text': ['Nunito', 'sans-serif'],
             },
         },
     },
+    // plugins: [require('@tailwindcss/forms')],
     plugins: [],
 };
