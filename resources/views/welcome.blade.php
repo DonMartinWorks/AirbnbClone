@@ -18,22 +18,7 @@
 </head>
 
 <body>
-    {{-- <div x-data="{ open: false }">
-        <button @click="open = !open">
-            <span x-text="open ? 'Desactivar' : 'Activar'"></span>
-        </button>
-
-        <span x-show="open">
-            <div class="text-rose-500">Hola</div>
-        </span>
-    </div> --}}
-    Airbnb
-    <p class="text-airbnb-accent">accent</p>
-    <p class="text-airbnb-gray-light">gray light</p>
-    <p class="text-airbnb-gray-dark">gray dark</p>
-    <p class="text-airbnb-green">green</p>
-    <p class="text-airbnb-orange">orange</p>
-    <p class="text-primary">primary</p>
+    @include('components.header')
 </body>
 
 </html>
